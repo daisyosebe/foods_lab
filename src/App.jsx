@@ -13,7 +13,6 @@ import Pantry from "./pages/pantry/Pantry.jsx";
 import Cart from "./pages/cart/Cart.jsx";
 // import ProtectedRoute from "./context/ProtectedRoute.jsx";
 import SamosaRecipe from "./pages/african/Samosas.jsx"
-
 import './App.css'
 
 
