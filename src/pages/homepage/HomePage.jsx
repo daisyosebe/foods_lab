@@ -13,19 +13,24 @@ export default function HomePage() {
     return (
       <>
       <div>
-        <header>WELCOME to MotherLand Cooks</header>
-        <Link to="/Cart">🛍️</Link> 
-        <div>
+        <header>
+          <link rel="preconnect" href="https://fonts.googleapis.com"/>
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+          <link href="https://fonts.googleapis.com/css2?family=Chonburi&display=swap" rel="stylesheet"></link>
+          WELCOME 
+        </header>
+        <div >
+        {/* <Link to="/Cart">🛍️</Link>  */}
           <Nav/>
         </div>
       </div>
 
-      <div className="flex-container" >
+      <div className="container" >
         <div className="flex-item">
 
-          <div>
-          <FaLinkedin />
-          <FaGithub />
+          <div className="icons">
+          <FaLinkedin /> 
+          <FaGithub /> <br/>
           <ImProfile />
           <FaCode />
           </div>
@@ -35,9 +40,9 @@ export default function HomePage() {
           <ul>
             <li>
               1. Lorem ipsum dolor sit amet. <br />
-              2. Lorem ipsum dolor sit amet.
-              3. Lorem ipsum dolor sit amet.
-              4. Lorem ipsum dolor sit amet.
+              2. Lorem ipsum dolor sit amet. <br />
+              3. Lorem ipsum dolor sit amet. <br />
+              4. Lorem ipsum dolor sit amet. <br />
             </li>
           </ul>
 

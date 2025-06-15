@@ -1,11 +1,7 @@
 import React from "react"
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HomePage from "./pages/homepage/HomePage.jsx";
-import Asian from "./pages/asian/Asian.jsx";
 import African from "./pages/african/African.jsx";
-import European from "./pages/european/European.jsx";
-import SouthAmerica from "./pages/southamerican/SouthAmerican.jsx";
-import NorthAmerica from "./pages/northamerican/NorthAmerican.jsx"
 import MyKitchen from "./pages/mykitchen/MyKitchen.jsx";
 import Cooked from "./pages/cooked/Cooked.jsx";
 import Favorite from "./pages/favorite/Favorite.jsx";
@@ -57,33 +53,7 @@ export default function App(){
       }
     />
 
-<Route
-      path="/Asian"
-      element={
-        <Asian/>
-      }
-    />
 
-<Route
-      path="/European"
-      element={
-        <European/>
-      }
-    />
-
-<Route
-      path="/SouthAmerican"
-      element={
-        <SouthAmerica/>
-      }
-    />
-
-<Route
-      path="/NorthAmerican"
-      element={
-        <NorthAmerica/>
-      }
-    />
 
 <Route
       path="/MyKitchen"
