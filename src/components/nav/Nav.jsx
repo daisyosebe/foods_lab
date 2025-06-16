@@ -1,5 +1,6 @@
 import { Link, NavLink } from "react-router-dom";
 import "./Nav.css"
+import { FaBowlFood } from "react-icons/fa6";
 import { GiCook } from "react-icons/gi";
 import { PiCookingPotFill } from "react-icons/pi";
 import { MdOutlineFavorite } from "react-icons/md";
@@ -14,7 +15,12 @@ const Nav = () => {
     return (
 <nav>
       <ul  >
-       
+
+        <li>
+          <NavLink exact to="/recipe"><FaBowlFood />
+</NavLink> 
+        </li>       
+
         <li>
           <NavLink exact to="/My Kitchen"><GiCook />
 </NavLink> 

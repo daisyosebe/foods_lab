@@ -1,6 +1,7 @@
 import React from "react"
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HomePage from "./pages/homepage/HomePage.jsx";
+import Recipe from "./pages/recipe/Recipe.jsx"
 import African from "./pages/african/African.jsx";
 import MyKitchen from "./pages/mykitchen/MyKitchen.jsx";
 import Cooked from "./pages/cooked/Cooked.jsx";
@@ -36,6 +37,12 @@ export default function App(){
       path="/"
       element={
         <HomePage/>
+      }
+    />
+    <Route
+      path="/recipe"
+      element={
+        <Recipe/>
       }
     />
 

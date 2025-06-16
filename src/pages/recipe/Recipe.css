@@ -1,0 +1,15 @@
+body{
+    margin: 0;
+}
+
+header{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    font-family: "Chonburi", serif;
+    font-weight: 400;
+    font-style: normal;
+    color:white;
+    font-size: 50px;
+    width: 100%;
+}
